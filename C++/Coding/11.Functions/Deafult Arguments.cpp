@@ -34,9 +34,6 @@ int main()
     greeting("Glen john", "Dr.","M.D");
     greeting("james","Professor","Ph.D");
     greeting("Frank","Dr.");
-    greeting
-
-
     return 0;
 
 }
