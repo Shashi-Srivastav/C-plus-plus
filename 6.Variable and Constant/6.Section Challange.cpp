@@ -21,7 +21,7 @@ int main()
     cout<<"Cost "<<(small_rooms*small_room_price)+(large_rooms*large_room_price)<<"$"<<endl;
     cout<<"Tax "<<((small_room_price*small_rooms)+(large_rooms*large_room_price))*tax_price<<"$"<<endl;
     cout<<"===================================="<<endl;
-    cout<<"Total Cost = "<<(small_room_price*small_rooms)+(large_room_price*large_rooms)+((small_room_price*small_rooms)+(large_rooms*large_room_price))*tax_price<<endl;
+    cout<<"Total Cost = "<<(small_room_price*small_rooms)+(large_room_price*large_rooms)+((small_room_price*small_rooms)+(large_rooms*large_room_price))*tax_price<<" $ "<<endl;
     cout<<"This is valid for "<<days<<endl<<endl;;
     return 0;
 }
